@@ -1,7 +1,7 @@
-// import AboutUs from "../AboutUs/AboutUs";
-// import BuisnessModel from "../BuisnessModel/BuisnessModel";
+import AboutUs from "../AboutUs/AboutUs";
+import BuisnessModel from "../BuisnessModel/BuisnessModel";
 import Navbar from "../Navbar/Navbar";
-// import OurServices from "../OurServices/OurServices";
+import OurServices from "../OurServices/OurServices";
 import Vedio from "../Vedio/Vedio";
 import "./Homepage.css";
 export default function Homepage() {
@@ -10,9 +10,9 @@ export default function Homepage() {
       <div className="homepagemain">
         <Navbar />
         <Vedio />
-        {/* <AboutUs />
+        <AboutUs />
         <BuisnessModel />
-        <OurServices /> */}
+        <OurServices />
       </div>
     </>
   );
